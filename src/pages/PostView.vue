@@ -1,13 +1,13 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <h1>omg</h1>
+    hahaha
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'PostView',
   data() {
     return {
       msg: 'Welcome to Your Vue.js App',

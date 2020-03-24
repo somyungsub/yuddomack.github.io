@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <img src="../assets/logo.png" />
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -51,6 +52,13 @@
         <a href="https://github.com/vuejs/awesome-vue" target="_blank">
           awesome-vue
         </a>
+      </li>
+    </ul>
+    <h1>OpenBrain blog template's</h1>
+    <h2>Post</h2>
+    <ul>
+      <li>
+        <router-link to="/postView">Post View</router-link>
       </li>
     </ul>
   </div>
