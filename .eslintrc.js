@@ -12,7 +12,7 @@ module.exports = {
   // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
   extends: [
     'plugin:prettier/recommended',
-    //'plugin:vue/essential',
+    'plugin:vue/essential',
     'airbnb-base',
   ],
   // required to lint *.vue files
