@@ -16,6 +16,12 @@ body,
 #app {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  #app {
+    width: 1024px;
+  }
 }
 </style>
