@@ -1,12 +1,10 @@
 <template>
-  <div class="content">
-    컨텐츠
-  </div>
+  <article>article</article>
 </template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.content {
-  background: blue;
+article {
+  background: red;
 }
 </style>

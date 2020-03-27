@@ -1,22 +1,19 @@
 <template>
-  <div class="hello">
+  <div class="post-view">
     <post-header></post-header>
-    <post-toc></post-toc>
-    <post-content></post-content>
+    <post-body></post-body>
   </div>
 </template>
 
 <script>
 import PostHeader from '@/components/organism/PostHeader';
-import PostToc from '@/components/organism/PostToc';
-import PostContent from '@/components/organism/PostContent';
+import PostBody from '@/components/organism/PostBody';
 
 export default {
   name: 'PostView',
   components: {
-    PostToc, // PostToc -> post-tOC
     PostHeader,
-    PostContent,
+    PostBody,
   },
   data() {
     return {
@@ -28,19 +25,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1,
-h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+/* @media (min-width: 1024px) {
+  header {
+    width: 1024px;
+  }
+} */
 </style>

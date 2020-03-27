@@ -1,0 +1,26 @@
+<template>
+  <div class="content">
+    <PostToc></PostToc>
+    <PostArticle></PostArticle>
+  </div>
+</template>
+
+<script>
+import PostToc from '@/components/molecule/PostToc';
+import PostArticle from '@/components/molecule/PostArticle';
+
+export default {
+  name: 'PostBody',
+  components: {
+    PostToc,
+    PostArticle,
+  },
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.content {
+  background: blue;
+}
+</style>
