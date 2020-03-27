@@ -1,13 +1,23 @@
 <template>
   <div class="hello">
-    <h1>omg</h1>
-    hahaha
+    <post-header></post-header>
+    <post-toc></post-toc>
+    <post-content></post-content>
   </div>
 </template>
 
 <script>
+import PostHeader from '@/components/organism/PostHeader';
+import PostToc from '@/components/organism/PostToc';
+import PostContent from '@/components/organism/PostContent';
+
 export default {
   name: 'PostView',
+  components: {
+    PostToc, // PostToc -> post-tOC
+    PostHeader,
+    PostContent,
+  },
   data() {
     return {
       msg: 'Welcome to Your Vue.js App',
