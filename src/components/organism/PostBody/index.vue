@@ -23,7 +23,14 @@ export default {
 .content {
   padding-left: 100px;
   padding-right: 100px;
+  padding-top: 10px;
   background: gray;
+}
+
+.content::after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
 @media (max-width: 1024px) {
