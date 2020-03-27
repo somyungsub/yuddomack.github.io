@@ -9,4 +9,11 @@ aside {
   float: left;
   width: 256px;
 }
+
+@media (max-width: 768px) {
+  aside {
+    width: 100%;
+    float: none;
+  }
+}
 </style>
