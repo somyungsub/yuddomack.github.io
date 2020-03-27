@@ -21,6 +21,14 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .content {
-  background: blue;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: gray;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    padding: 0;
+  }
 }
 </style>

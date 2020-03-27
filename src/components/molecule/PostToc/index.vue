@@ -6,5 +6,7 @@
 <style scoped>
 aside {
   background: cyan;
+  float: left;
+  width: 256px;
 }
 </style>
