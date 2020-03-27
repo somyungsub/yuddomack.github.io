@@ -24,7 +24,7 @@ export default {
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 10px;
-  background: gray;
+  /* background: gray; */
 }
 
 .content::after {

@@ -59,9 +59,8 @@ input {
 
 @media (max-width: 768px) {
   aside {
-    float: none;
-    position: fixed;
-    top: 0;
+    height: 100%;
+    position: absolute;
   }
 }
 </style>
